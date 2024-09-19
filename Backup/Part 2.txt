@@ -1,0 +1,27 @@
+1.  Attach a border of burlywood solid 2px to both tables and centre them both.
+2.  Change the text color of the h2 inside of the header tag.
+3.  ...give the nav element a class of 'nav'
+    ...use the class name to access the anchor tags.
+    ...Remove the underline, add padding of 1rem and change the text color to aliceblue.
+4.  style the nav element and give it a background color of black and center it in the middle.
+5.  give the main element an ID of main. Style it with a margin of 30 px and centre all the text in the main element.
+6.  Style all the children elements of aside and give it a dotted border of 10px with a text color of dimgrey.
+7.  Style the button by using an Adjacent sibling selectors of aside and change the text color to cornflower blue.
+8.  Highlight all article elements that are general siblings of the paragraph element.
+9.  Use a univeral selector to change the font family to verdana and the thickness of the text to 800.
+10. Search what is a pseudo class and a pseudo element
+11. ...Go to the 'parent element' of the h3 element and attach an id of hover.
+    ...Use a pseudo class to create a hovering effect when hovering of the 'parent element' to display the hidden h3 element.
+    ...The h3 element should have a background color of yellow with a padding of 2rex.
+12. Use a pseudo class to set the anchor elements to be purple when clicked.
+13. Use a pseudo class to set the first element of the tr element to have a background color of yellowgreen.
+14. Use a pseudo class to get the first element(td) of all  tr elements and change the text color to crimson.
+    ....Now change it so that it is only changes colour when hovering over it.
+15. Use a pseudo class to select the first i element in every p element and change the text color to blue.
+16. Use a pseudo class to select all i elements in the p elements and set it to a text colour of peru.
+17. Use a pseudo element to change the text color to green yellow when selected/highlighted.
+18. Add a class name 'paragraph' to the paragraph element which is below the aside semantic element.
+    ...Use a pseudo element and reference the class 'paragraph', change the first line of the text colour to red.
+19. Use the same calss name in Ques.18 and change the first letter text colorto blue;
+20. Add the following gif before and after the article element, you cant use img tags..you must use a pseudo element
+    ...https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif

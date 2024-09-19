@@ -1,0 +1,43 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:aqua;
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+
+}
+
+ul li{
+    list-style:none ;
+    width: 200px;
+    height:200px;
+    background-color: burlywood;
+}
+
+.Heading{
+    background-color: green;
+    text-align:center;
+}
+
+/* child selector */
+aside > p{
+    border:3px solid coral;
+}
+
+/* adjacent selector */
+aside + p{
+    color:brown;
+    font-weight: 900;
+    font-size:5ch;
+    width:600px;
+    text-transform: uppercase;
+    background-image: url('');
+    background-clip: text;
+}

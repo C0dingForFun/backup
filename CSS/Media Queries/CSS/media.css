@@ -1,0 +1,16 @@
+p{
+    width:800px;
+    height:600px;
+    background-color: coral;
+}
+
+@media screen and (max-width:700px) {
+    p{
+        color:white;
+        background-color:cadetblue;
+        width:300px;
+        height:200px;
+        margin:auto;
+        text-align:center;
+    }
+}

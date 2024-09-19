@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+}
+
+.nav-item a{
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+    padding-left:1em ;
+    padding-right:1em ;
+    transition: 1s;
+    border-bottom: groove 2px transparent;
+}
+
+.nav-item a:hover{
+    color:red;
+    border-bottom: groove 2px red;
+}
+
+.active a{
+    color:red;
+}
+
+.circle{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    background-color: rgba(236, 236, 236, 0.808);
+}
+
+.bannertxt h1{
+    font-size:5em;
+    font-weight:bold;
+    padding-left:20px;
+    text-shadow:5px 5px gray;
+}
+
+.color1{
+    width:30px;
+    height:30px;
+    border-radius:50% ;
+    background-color: blue;
+    border:groove 2px white;
+    position: relative;
+    left:320px;
+    top:80px;
+}
+
+.color2{
+    width:30px;
+    height:30px;
+    background-color: red;
+    border:groove 2px white;
+    border-radius:50% ;
+    position: relative;
+    left:340px;
+    top:100px;
+}
+
+.color3{
+    width:30px;
+    height:30px;
+    background-color: gray;
+    border:groove 2px white;
+    border-radius:50% ;
+    position: relative;
+    left:320px;
+    top:120px;
+}
+
+#trending > div{
+    width:400px;
+    height:500px;
+    border:double 2px grey;
+    border-radius:10%;
+    display:flex;
+}
+
+section{
+    margin-top:10vh;
+}
+
+.sizes > div{
+    width:40px;
+    height:40px;
+    border:solid 2px black;
+    border-radius: 10%;
+    padding: 1ch;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sizes > div:hover{
+    background-color: black;
+    color: red;
+}   
+
+.sizes > .active{
+    background-color: black;
+}
+
+#login_signup{
+    border:solid 2px black;
+    width: 400px;
+    height:500px;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.login-button{
+    background-color: white;
+    width: 60px;
+    transition: 1s;
+    border-radius: 10%;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+}
+button:hover, button a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    box-shadow: 3px 3px gray;
+}
+

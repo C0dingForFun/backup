@@ -1,0 +1,38 @@
+/* Gwiba Mabandla */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.main{
+    margin-left:150px;
+    overflow:hidden;
+}
+
+footer{
+    margin-top:5em;
+    border-top:solid 2px gray;
+    padding-top:7em;
+    clear:left;
+}
+
+.logo{
+    width:150px;
+    height:350px;
+}
+
+.banner{
+    width:300px;
+    height:85px;
+}
+
+.nav{
+    width:560px;
+    height:56px;
+}
+
+select > option:hover{
+    cursor: pointer;
+}

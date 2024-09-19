@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+section{
+    padding-top:1em;
+}
+
+#uh{
+    padding:10px;
+   background-color: pink;
+   color:maroon; 
+}
+
+#favourites:hover {
+    cursor: pointer;
+    width:100%;
+    background-color:blue ;
+    color:white;
+}
+
